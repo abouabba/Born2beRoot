@@ -1,0 +1,30 @@
+#!/bin/bash
+while true;
+do
+sleep 600
+arc=$(uname -a)
+pcpu=$(lscpu | grep "^Socket(s):" | awk '{print $2}')
+vcpu=$(grep "^processor" /proc/cpuinfo | wc -l)
+ram=$(free -m | awk '/^Mem:/ {printf "%d/%dMB (%.2f%%)\n", $3, $2, ($3/$2)*100}')
+disk=$(df -BG --total | awk '/^total/ {printf "%d/%dGb (%s)\n", $3*1024, $2, $5}')
+cpul=$(top -bn1 | grep "Cpu(s)" | awk '{printf "%.1f%%\n", $2 + $4}')
+lb=$(who -b | awk '$1 == "system" {print $3 " " $4}')
+lvmu=$(lsblk | grep -q "lvm" && echo "yes" || echo "no")
+ctcp=$(ss -Ht state established | wc -l)
+ulog=$(users | tr " " "\n" | uniq | wc -l)
+ip=$(hostname -I)
+mac=$(ip link show | grep "ether" | awk '{print $2}')
+cmds=$(journalctl _COMM=sudo | grep COMMAND | wc -l)
+wall "  #Architecture   : $arc
+        #CPU physical   : $pcpu
+        #vCPU           : $vcpu
+        #Memory Usage   : $ram
+        #Disk Usage     : $disk
+        #CPU load       : $cpul
+        #Last boot      : $lb
+        #LVM use        : $lvmu
+        #Connections TCP: $ctcp ESTABLISHED
+        #User log       : $ulog
+        #Network        : IP $ip ($mac)
+        #Sudo           : $cmds cmd"
+done
