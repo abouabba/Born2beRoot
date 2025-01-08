@@ -7,3 +7,6 @@ sudo is a program for Unix-like computer operating systems that enables users to
 It originally stood for "superuser do", as that was all it did, and it is its most common usage; however, the official Sudo project page lists it as "su 'do' ".
 
 1.    The beginning of the installation starts with changing user to root so we can install sudo, for this purpouse we write:
+
+      su
+      su in the bash prompt and introduce the root password, in my case Hola42bcn.
