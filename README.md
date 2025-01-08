@@ -8,7 +8,8 @@ It originally stood for "superuser do", as that was all it did, and it is its mo
 
 1.    The beginning of the installation starts with changing user to root so we can install sudo, for this purpouse we write:
 
-      su\n
+      su
+
       su in the bash prompt and introduce the root password, in my case Hola42bcn.
 
-2. Once we are done we write down the command 
+3. Once we are done we write down the command 
