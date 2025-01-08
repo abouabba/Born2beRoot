@@ -12,4 +12,6 @@ It originally stood for "superuser do", as that was all it did, and it is its mo
 
       su in the bash prompt and introduce the root password, in my case Hola42bcn.
 
-3. Once we are done we write down the command 
+3. Once we are done we write down the command
+
+   apt install sudo
