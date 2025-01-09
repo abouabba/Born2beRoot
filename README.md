@@ -28,3 +28,6 @@ Creating a user
 Still in the root user we will create an additional user with
 
           sudo addusr <user>
+
+👥
+Creating a group
