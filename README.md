@@ -22,3 +22,9 @@ It originally stood for "superuser do", as that was all it did, and it is its mo
 
 👤
 Creating a user
+
+ Now, this step is for the everyone that didn't put his user as the other user asked by the subject during the installation of the system.
+
+Still in the root user we will create an additional user with
+
+          sudo addusr <user>
