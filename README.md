@@ -19,3 +19,6 @@ It originally stood for "superuser do", as that was all it did, and it is its mo
 3. We must reboot machine so the changes can be applied. For that porpouse we will use the commando:
 
         sudo reboot
+
+👤
+Creating a user
