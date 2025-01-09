@@ -31,3 +31,7 @@ Still in the root user we will create an additional user with
 
 👥
 Creating a group
+
+1. We will create a new group called user42. For that we must use:
+
+             sudo addgroup <group>
