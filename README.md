@@ -35,3 +35,7 @@ Creating a group
 1. We will create a new group called user42. For that we must use:
 
              sudo addgroup <group>
+
+🤔 Was the group created without problems? Truth is that there is no sign of one, still we can check it using with:
+
+          getent group <groupname>
