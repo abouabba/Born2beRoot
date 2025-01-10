@@ -46,3 +46,6 @@ Installing & configuring SSH
 1. First thing, we should update the system using
 
           sudo apt update
+2. Following up we will install the main tool for remote access with the SSH protocol, using OpenSSH. The installation requieres the package:
+
+          sudo apt install openssh-server
