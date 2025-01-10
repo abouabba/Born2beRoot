@@ -42,3 +42,7 @@ Creating a group
 
 📶
 Installing & configuring SSH
+
+1. First thing, we should update the system using
+
+          sudo apt update
