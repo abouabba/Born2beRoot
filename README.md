@@ -39,3 +39,6 @@ Creating a group
 🤔 Was the group created without problems? Truth is that there is no sign of one, still we can check it using with:
 
           getent group <groupname>
+
+📶
+Installing & configuring SSH
