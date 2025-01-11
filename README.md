@@ -55,3 +55,6 @@ https://mathieu-soysal.gitbook.io/~gitbook/image?url=https%3A%2F%2F3975474142-fi
 3. Anywan curious that the installation have been realices without problems we can use:
 
           sudo service ssh status
+
+📶
+Configuring SSH
