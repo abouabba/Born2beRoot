@@ -58,3 +58,13 @@ https://mathieu-soysal.gitbook.io/~gitbook/image?url=https%3A%2F%2F3975474142-fi
 
 📶
 Configuring SSH
+
+For that we will use Nano or VIM (we will need to install vim since it's not preinstalled using sudo apt install vim) or any other text editor.
+First file that we will edit will be /etc/ssh/sshd_config. If you are not on root you will not be able to edit the file; as you know, for switching to root we use su
+
+          su
+          
+          nano /etc/ssh/sshd_config
+The # means that line it is commented; the lines that we will be edit have to be uncommented. Once we are editing the file we need to update the following lines:
+
+          #Port 22 -> Port 4242
