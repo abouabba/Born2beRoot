@@ -65,6 +65,6 @@ First file that we will edit will be /etc/ssh/sshd_config. If you are not on roo
           su
           
           nano /etc/ssh/sshd_config
-The # means that line it is commented; the lines that we will be edit have to be uncommented. Once we are editing the file we need to update the following lines:
+2. The # means that line it is commented; the lines that we will be edit have to be uncommented. Once we are editing the file we need to update the following lines:
 
           #Port 22 -> Port 4242
