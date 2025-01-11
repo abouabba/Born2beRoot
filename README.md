@@ -68,3 +68,6 @@ First file that we will edit will be /etc/ssh/sshd_config. If you are not on roo
 2. The # means that line it is commented; the lines that we will be edit have to be uncommented. Once we are editing the file we need to update the following lines:
 
           #Port 22 -> Port 4242
+   
+   ![image](https://github.com/user-attachments/assets/1c92fc1a-4ead-444a-8df0-0ca7f8ffa1d6)
+
