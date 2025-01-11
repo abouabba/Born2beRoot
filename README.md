@@ -72,3 +72,7 @@ First file that we will edit will be /etc/ssh/sshd_config. If you are not on roo
    
    ![image](https://github.com/user-attachments/assets/1c92fc1a-4ead-444a-8df0-0ca7f8ffa1d6)
 
+   #PermitRootLogin prohibit-password -> PermitRootLogin no
+
+
+
