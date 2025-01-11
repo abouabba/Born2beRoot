@@ -50,7 +50,8 @@ Installing & configuring SSH
 
           sudo apt install openssh-server
 
-https://mathieu-soysal.gitbook.io/~gitbook/image?url=https%3A%2F%2F3975474142-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FvxQldFCzdjsw8BkClhdK%252Fuploads%252FhcKqv6JgKgqPu3jZiFGz%252Fimage.png%3Falt%3Dmedia%26token%3De76e8653-fe65-4d53-be48-10782aa15d87&width=768&dpr=4&quality=100&sign=1001f0a5&sv=2
+![image](https://github.com/user-attachments/assets/e40f5ec6-85dc-406d-a78a-6de032c5a6aa)
+
 
 3. Anywan curious that the installation have been realices without problems we can use:
 
