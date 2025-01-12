@@ -79,3 +79,5 @@ First file that we will edit will be /etc/ssh/sshd_config. If you are not on roo
 
 👬
 Connecting via SSH
+
+1. Go to device settings and enter settings
