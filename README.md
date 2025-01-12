@@ -102,3 +102,8 @@ Connecting via SSH
 🚨 In some devices, the port may be missing, so the connection will not work. It may be useful if you change the port from 4242 to 4241.
 
 5. To connect via ssh from our machine to the virstual machine using and the use the command
+
+   my username is abouabba.
+   So if I want to call you ssh
+   type..
+   ssh abouabba@localhost -p 4241.
