@@ -90,3 +90,6 @@ Connecting via SSH
 ![image](https://github.com/user-attachments/assets/64126c37-0fd4-4a49-ab4b-4de351e10467)
 
 3. Click on the emoji for adding a new rule.
+
+   ![image](https://github.com/user-attachments/assets/83c73a72-1c98-4d44-9f9b-3dc5f4eede80)
+
