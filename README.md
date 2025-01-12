@@ -106,6 +106,7 @@ Connecting via SSH
    my username is abouabba.
    So if I want to call you ssh
    type..
-   ssh abouabba@localhost -p 4241.
+   
+             ssh abouabba@localhost -p 4241.
 
 It will ask for the password of the user that we are trying to log in. Once the password is introduced it will show or login in green, that will mean that the connections has been successfully
