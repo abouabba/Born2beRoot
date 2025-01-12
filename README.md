@@ -84,3 +84,6 @@ Connecting via SSH
 
    ![image](https://github.com/user-attachments/assets/c1953e1a-e930-48ad-aabc-f92432edd0cd)
 
+
+2. Once there we will click on Network, click on Advanced so it shows more options, then we click on Port fowarding.
+
