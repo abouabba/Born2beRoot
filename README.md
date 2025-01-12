@@ -77,3 +77,5 @@ First file that we will edit will be /etc/ssh/sshd_config. If you are not on roo
 
 ![image](https://github.com/user-attachments/assets/44e620b2-4bc6-4db0-babb-678017d483e8)
 
+👬
+Connecting via SSH
