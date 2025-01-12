@@ -96,3 +96,6 @@ Connecting via SSH
    ![image](https://github.com/user-attachments/assets/83c73a72-1c98-4d44-9f9b-3dc5f4eede80)
 
 4. Lastly we will add the 4242 port to host and client. The IP's are not required. We will click accept so changes can be saved.
+
+   ![image](https://github.com/user-attachments/assets/a8ba7135-531e-4463-b51a-6c0ea47cca24)
+
