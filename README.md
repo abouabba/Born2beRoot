@@ -82,7 +82,7 @@ Lastly we will add the 4242 port to host and client. The IP's are not required. 
 👬
 Connecting via SSH
 
-1. Go to device settings and enter settings
+1. Go to device settings and enter settingsIt will ask for the password of the user that we are trying to log in. Once the password is introduced it will show or login in green, that will mean that the connections has been successfully
 
    ![image](https://github.com/user-attachments/assets/c1953e1a-e930-48ad-aabc-f92432edd0cd)
 
@@ -107,3 +107,5 @@ Connecting via SSH
    So if I want to call you ssh
    type..
    ssh abouabba@localhost -p 4241.
+
+It will ask for the password of the user that we are trying to log in. Once the password is introduced it will show or login in green, that will mean that the connections has been successfully
