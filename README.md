@@ -100,3 +100,5 @@ Connecting via SSH
    ![image](https://github.com/user-attachments/assets/a8ba7135-531e-4463-b51a-6c0ea47cca24)
 
 🚨 In some devices, the port may be missing, so the connection will not work. It may be useful if you change the port from 4242 to 4241.
+
+5. To connect via ssh from our machine to the virstual machine using and the use the command
