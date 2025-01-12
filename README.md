@@ -48,6 +48,7 @@ Installing & configuring SSH
           sudo apt update
 2. Following up we will install the main tool for remote access with the SSH protocol, using OpenSSH. The installation requieres the package:
 
+Lastly we will add the 4242 port to host and client. The IP's are not required. We will click accept so changes can be saved.
           sudo apt install openssh-server
 
 ![image](https://github.com/user-attachments/assets/e40f5ec6-85dc-406d-a78a-6de032c5a6aa)
@@ -66,6 +67,7 @@ First file that we will edit will be /etc/ssh/sshd_config. If you are not on roo
           su
           
           nano /etc/ssh/sshd_config
+Lastly we will add the 4242 port to host and client. The IP's are not required. We will click accept so changes can be saved.
 2. The # means that line it is commented; the lines that we will be edit have to be uncommented. Once we are editing the file we need to update the following lines:
 
           #Port 22 -> Port 4242
@@ -93,3 +95,4 @@ Connecting via SSH
 
    ![image](https://github.com/user-attachments/assets/83c73a72-1c98-4d44-9f9b-3dc5f4eede80)
 
+4. Lastly we will add the 4242 port to host and client. The IP's are not required. We will click accept so changes can be saved.
