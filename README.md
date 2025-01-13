@@ -130,3 +130,7 @@ then when we are asked for confirmation type y and the installation will proceed
 
 ![image](https://github.com/user-attachments/assets/45d20c5a-2752-4890-89ed-ab52d5113c94)
 
+2. When we are done with it, we want to start it using the command:
+
+
+
