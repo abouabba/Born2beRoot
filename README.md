@@ -136,4 +136,5 @@ then when we are asked for confirmation type y and the installation will proceed
 
    and then it have to show us the the firewall is ative.
 
-   
+🔥
+Allow a port to firewall
