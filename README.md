@@ -46,7 +46,8 @@ Installing & configuring SSH
 1. First thing, we should update the system using
 
           sudo apt update
-2. Following up we will install the main tool for remote access with the SSH protocol, using OpenSSH. The installation requieres the package:
+2. Following up we will install the main tool
+First things first, we need to install the packages for UFW, for that we will use: for remote access with the SSH protocol, using OpenSSH. The installation requieres the package:
 
 Lastly we will add the 4242 port to host and client. The IP's are not required. We will click accept so changes can be saved.
           sudo apt install openssh-server
@@ -67,7 +68,8 @@ First file that we will edit will be /etc/ssh/sshd_config. If you are not on roo
           su
           
           nano /etc/ssh/sshd_config
-Lastly we will add the 4242 port to host and client. The IP's are not required. We will click accept so changes can be saved.
+Lastly we will add the 4242 port to host an
+First things first, we need to install the packages for UFW, for that we will use:d client. The IP's are not required. We will click accept so changes can be saved.
 2. The # means that line it is commented; the lines that we will be edit have to be uncommented. Once we are editing the file we need to update the following lines:
 
           #Port 22 -> Port 4242
@@ -100,6 +102,7 @@ Connecting via SSH
    ![image](https://github.com/user-attachments/assets/a8ba7135-531e-4463-b51a-6c0ea47cca24)
 
 🚨 In some devices, the port may be missing, so the connection will not work. It may be useful if you change the port from 4242 to 4241.
+First things first, we need to install the packages for UFW, for that we will use:
 
 5. To connect via ssh from our machine to the virstual machine using and the use the command
 
@@ -115,4 +118,7 @@ It will ask for the password of the user that we are trying to log in. Once the 
 Installing & configuring UFW 🔥🧱 Firewall
 
 UFW: It is a firewall which use the command line for setting up iptables using a small number of easy commands.
+
+1. 
+First things first, we need to install the packages for UFW, for that we will use:
 
