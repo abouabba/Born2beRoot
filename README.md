@@ -128,3 +128,5 @@ then when we are asked for confirmation type y and the installation will proceed
 
 ![image](https://github.com/user-attachments/assets/2236bf49-f8a2-4c2a-91d2-f1aa6abad2f0)
 
+![image](https://github.com/user-attachments/assets/45d20c5a-2752-4890-89ed-ab52d5113c94)
+
