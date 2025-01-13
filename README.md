@@ -110,3 +110,6 @@ Connecting via SSH
              ssh abouabba@localhost -p 4241.
 
 It will ask for the password of the user that we are trying to log in. Once the password is introduced it will show or login in green, that will mean that the connections has been successfully
+
+🔥
+Installing & configuring UFW 🔥🧱 Firewall
