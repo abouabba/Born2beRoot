@@ -140,3 +140,5 @@ then when we are asked for confirmation type y and the installation will proceed
 Allow a port to firewall
 
 1. we must allow our firewall to accept the connections that will happens in the 4242 port. What we will do is use:
+
+          sudo ufw allow 4242
