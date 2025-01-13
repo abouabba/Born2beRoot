@@ -113,3 +113,6 @@ It will ask for the password of the user that we are trying to log in. Once the 
 
 🔥
 Installing & configuring UFW 🔥🧱 Firewall
+
+UFW: It is a firewall which use the command line for setting up iptables using a small number of easy commands.
+
