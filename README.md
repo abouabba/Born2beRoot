@@ -133,4 +133,7 @@ then when we are asked for confirmation type y and the installation will proceed
 2. When we are done with it, we want to start it using the command:
 
           sudo ufw enable
+
+   and then it have to show us the the firewall is ative.
+
    
