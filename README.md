@@ -122,3 +122,5 @@ UFW: It is a firewall which use the command line for setting up iptables using a
 1. 
 First things first, we need to install the packages for UFW, for that we will use:
 
+          sudo apt install ufw
+
