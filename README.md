@@ -125,3 +125,6 @@ First things first, we need to install the packages for UFW, for that we will us
           sudo apt install ufw
 
 then when we are asked for confirmation type y and the installation will proceed.
+
+![image](https://github.com/user-attachments/assets/2236bf49-f8a2-4c2a-91d2-f1aa6abad2f0)
+
