@@ -171,3 +171,37 @@ Begining with this section, we will create a file in /etc/sudoerd.d/. The file w
 3. We must edit the file that we created in the first step of this section. Use any text editor, but for this guide as is in every screenshot we will use nano. Use:
 
           nano /etc/sudoers.d/sudo_config
+
+
+Once we are editing the file we must set it up with the following commands:
+
+![image](https://github.com/user-attachments/assets/2a7b5bad-b924-41de-9fc8-8e429b14a819)
+
+
+Defaults  passwd_tries=3
+Defaults  badpass_message="Mensaje de error personalizado"
+Defaults  logfile="/var/log/sudo/sudo_config"
+Defaults  log_input, log_output
+Defaults  iolog_dir="/var/log/sudo"
+Defaults  requiretty
+Defaults  secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+
+
+As it should be on the file:
+
+![image](https://github.com/user-attachments/assets/f458b97b-4ef5-42a7-81c2-d2e3981f4200)
+
+
+✅ passwd_tries=3: Total tries for entering the sudo password.
+
+✅ badpass_message="message": The message that will show when the password failed.
+
+✅ logfile="/var/log/sudo/sudo_config": Path where will the sudo logs will be stored.
+
+✅ log_input, log_output: What will be logged.
+
+✅ iolog_dir="/var/log/sudo": What will be logged.
+
+✅ requiretty: TTY become require
+
+✅ secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin": Folders that will be excluded of sudo
