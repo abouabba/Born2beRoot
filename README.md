@@ -150,3 +150,5 @@ Allow a port to firewall
 sudo policies
              sudo ufw status
 ![image](https://github.com/user-attachments/assets/dab09a07-16e6-4899-8878-8e49b06efaf5)
+
+Begining with this section, we will create a file in /etc/sudoerd.d/. The file will serve the purpouse of storing our sudo policy
