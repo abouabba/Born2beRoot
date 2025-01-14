@@ -205,3 +205,7 @@ As it should be on the file:
 ✅ requiretty: TTY become require
 
 ✅ secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin": Folders that will be excluded of sudo
+
+🔑
+password policy 🔑
+
