@@ -166,3 +166,8 @@ Begining with this section, we will create a file in /etc/sudoerd.d/. The file w
           mkdir /var/log/sudo
 
 ![image](https://github.com/user-attachments/assets/acceb6dd-afea-4c17-af0f-2729242e8a2f)
+
+
+3. We must edit the file that we created in the first step of this section. Use any text editor, but for this guide as is in every screenshot we will use nano. Use:
+
+          nano /etc/sudoers.d/sudo_config
