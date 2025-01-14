@@ -161,4 +161,6 @@ Begining with this section, we will create a file in /etc/sudoerd.d/. The file w
 ![image](https://github.com/user-attachments/assets/e965be93-13ef-42df-8dd8-77dc46ae4e75)
 
 
-Then we must create a directory as is asked in the subject in /var/log/ because each commands need to be logged, the input and output. We will use:
+2. Then we must create a directory as is asked in the subject in /var/log/ because each commands need to be logged, the input and output. We will use:
+
+          mkdir /var/log/sudo
