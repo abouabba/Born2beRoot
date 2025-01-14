@@ -146,4 +146,6 @@ Allow a port to firewall
           sudo ufw allow 4242
 2. 
 Lastly we will check if everything done here is correct checking the actual state of our firewall. For that we will use:
-           sudo ufw status
+
+             sudo ufw status
+![image](https://github.com/user-attachments/assets/dab09a07-16e6-4899-8878-8e49b06efaf5)
