@@ -238,4 +238,7 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 4. Next thing we must do is is edit a file and change itś content. We will use
 
           nano /etc/pam.d/common-password
-5. Below retry=3 we must add the following commands:
+
+6. Below retry=3 we must add the following commands:
+
+          minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
