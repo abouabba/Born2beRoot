@@ -233,3 +233,6 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
           sudo apt install libpam-pwquality
 
 ![image](https://github.com/user-attachments/assets/c18e268b-88e6-4fe3-86ec-573c11991f0f)
+
+
+4. Next thing we must do is is edit a file and change itś content. We will use
