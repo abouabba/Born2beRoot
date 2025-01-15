@@ -242,3 +242,4 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 6. Below retry=3 we must add the following commands:
 
           minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
+![image](https://github.com/user-attachments/assets/d6f92520-6a9a-4d8a-9e14-2d931ba4c160)
