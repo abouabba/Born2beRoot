@@ -261,3 +261,4 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 
 🔥 enforce_for_root : Applies these password rules even for the root user, ensuring consistent enforcement of password policies.
 
+# 🧾Script 🚨
