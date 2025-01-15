@@ -212,4 +212,10 @@ password policy 🔑
 1. First step will be editing the login.defs file:
 
           nano /etc/login.defs
-2. Once we are done editing the file, we will set the next parameters:
+
+3. Once we are done editing the file, we will set the next parameters:
+
+PASS_MAX_DAYS 99999 -> PASS_MAX_DAYS 30
+
+PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
+
