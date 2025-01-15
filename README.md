@@ -305,3 +305,6 @@ Fetches the MAC address of the system.
 
           journalctl _COMM=sudo | grep COMMAND | wc -l
 Counts the number of sudo commands executed by querying the system logs.
+
+# Total result of the script
+
