@@ -213,7 +213,7 @@ password policy 🔑
 
           nano /etc/login.defs
 
-3. Once we are done editing the file, we will set the next parameters:
+2. Once we are done editing the file, we will set the next parameters:
 
 PASS_MAX_DAYS 99999 -> PASS_MAX_DAYS 30
 
@@ -226,3 +226,6 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 🎃 PASS_MIN_DAYS: It's the min days till password change.
 
 🎃 PASS_WARN_AGE: It's the days till password warning.
+
+
+3. For continuing the installation we must install the next packages to enforce the password quality with the following command:
