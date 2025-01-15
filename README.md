@@ -212,3 +212,4 @@ password policy 🔑
 1. First step will be editing the login.defs file:
 
           nano /etc/login.defs
+2. Once we are done editing the file, we will set the next parameters:
