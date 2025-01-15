@@ -231,3 +231,5 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 3. For continuing the installation we must install the next packages to enforce the password quality with the following command:
 
           sudo apt install libpam-pwquality
+
+![image](https://github.com/user-attachments/assets/c18e268b-88e6-4fe3-86ec-573c11991f0f)
