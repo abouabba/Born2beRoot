@@ -263,4 +263,45 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 
 # 🧾Script 🚨
 
-script:  is a sequence of commands stored in a file that when executed will do the function of each command.
+# script:  is a sequence of commands stored in a file that when executed will do the function of each command.
+
+Gathering System Information:
+
+          uname -a
+Retrieves the system's architecture and kernel information using the uname command.
+
+          lscpu | grep "^Socket(s):" | awk '{print $2}'
+Extracts the number of physical CPUs (sockets) using lscpu.
+
+          grep "^processor" /proc/cpuinfo | wc -l
+Counts the number of virtual CPUs (logical processors).
+
+          free -m | awk '/^Mem:/ {printf "%d/%dMB (%.2f%%)\n", $3, $2, ($3/$2)*100}'
+Displays the current and total memory usage in MB and as a percentage.
+
+          df -BG --total | awk '/^total/ {printf "%d/%dGb (%s)\n", $3*1024, $2, $5}'
+Summarizes the total disk usage in GB and shows the percentage used.
+
+          top -bn1 | grep "Cpu(s)" | awk '{printf "%.1f%%\n", $2 + $4}'
+Captures the current CPU load percentage from top.
+
+          who -b | awk '$1 == "system" {print $3 " " $4}'
+Gets the last boot time from the who -b command.
+
+          lsblk | grep -q "lvm" && echo "yes" || echo "no"
+Checks if Logical Volume Management (LVM) is being used.
+
+          ss -Ht state established | wc -l
+Counts the number of established TCP connections using ss.
+
+          users | tr " " "\n" | uniq | wc -l
+Counts the number of unique users currently logged in.
+
+          hostname -I
+Retrieves the system's IP address.
+
+          ip link show | grep "ether" | awk '{print $2}'
+Fetches the MAC address of the system.
+
+          journalctl _COMM=sudo | grep COMMAND | wc -l
+Counts the number of sudo commands executed by querying the system logs.
