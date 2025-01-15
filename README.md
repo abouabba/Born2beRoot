@@ -210,3 +210,5 @@ As it should be on the file:
 password policy 🔑
 
 1. First step will be editing the login.defs file:
+
+          nano /etc/login.defs
