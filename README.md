@@ -262,3 +262,5 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 🔥 enforce_for_root : Applies these password rules even for the root user, ensuring consistent enforcement of password policies.
 
 # 🧾Script 🚨
+
+script:  is a sequence of commands stored in a file that when executed will do the function of each command.
