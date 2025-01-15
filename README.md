@@ -242,4 +242,30 @@ PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 6. Below retry=3 we must add the following commands:
 
           minlen=10 ucredit=-1 dcredit=-1 lcredit=-1 maxrepeat=3 reject_username difok=7 enforce_for_root
+
 ![image](https://github.com/user-attachments/assets/d6f92520-6a9a-4d8a-9e14-2d931ba4c160)
+
+🔥 minlen=10
+Specifies the minimum length of the password. In this case, the password must be at least 10 characters long.
+
+🔥 ucredit=-1
+Requires at least 1 uppercase letter in the password. Negative values indicate the minimum required number of characters.
+
+🔥 dcredit=-1
+Requires at least 1 digit in the password.
+
+🔥 lcredit=-1
+Requires at least 1 lowercase letter in the password.
+
+🔥 maxrepeat=3
+Restricts repeated characters in the password to a maximum of 3 consecutive occurrences.
+
+🔥 reject_username
+Prevents the use of the username (or parts of it) as the password, increasing security.
+
+🔥 difok=7
+Ensures that at least 7 characters in the new password must differ from the old password.
+
+🔥 enforce_for_root
+Applies these password rules even for the root user, ensuring consistent enforcement of password policies.
+
