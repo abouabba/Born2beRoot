@@ -220,3 +220,9 @@ PASS_MAX_DAYS 99999 -> PASS_MAX_DAYS 30
 PASS_MIN_DAYS 0 -> PASS_MIN_DAYS 2
 
 ![image](https://github.com/user-attachments/assets/90f826cf-9b28-481c-8b24-3a75f1ba9ee0)
+
+🎃 PASS_MAX_DAYS: It's the max days till password expiration.
+
+🎃 PASS_MIN_DAYS: It's the min days till password change.
+
+🎃 PASS_WARN_AGE: It's the days till password warning.
