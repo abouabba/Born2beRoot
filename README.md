@@ -369,4 +369,5 @@ A crontab entry typically has this structure:
           sudo crontab -u root -e
 2. In the file, we must add the following command for the script to execute every 10 minutes */10 * * * * sh /path_to_file.sh.
 
-   
+![image](https://github.com/user-attachments/assets/31e1a060-0066-4857-ad10-beb584f4c12c)
+
