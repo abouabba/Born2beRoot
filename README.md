@@ -380,12 +380,12 @@ To obtain the signature, the first thing we must do is shut down the virtual mac
 
 Since once you turn it on or modify something, the signature will change.
 
-The next step will be to locate ourselves in the path where we have the .vdi of our virtual machine. From our physical machine.
+1. The next step will be to locate ourselves in the path where we have the .vdi of our virtual machine. From our physical machine.
 
 
 We had choose the path here
 
-Finally, we will run shasum machinename.vdi and this will give us the signature. The result of this signature is what we will need to add to our signature.txt file and subsequently upload the file to the intra repository. It is very important not to reopen the machine since the signature will be modified. For corrections, remember to clone the machine so you can turn it on without fear of changing the signature.
+2. Finally, we will run shasum machinename.vdi and this will give us the signature. The result of this signature is what we will need to add to our signature.txt file and subsequently upload the file to the intra repository. It is very important not to reopen the machine since the signature will be modified. For corrections, remember to clone the machine so you can turn it on without fear of changing the signature.
 
           shasum machinename.vdi
 
