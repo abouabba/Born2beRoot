@@ -338,3 +338,5 @@ Counts the number of sudo commands executed by querying the system logs.
         #Network        : IP $ip ($mac)
         #Sudo           : $cmds cmd"
           done
+
+# Result after executing the script ↙️
