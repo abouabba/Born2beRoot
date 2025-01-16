@@ -366,4 +366,4 @@ A crontab entry typically has this structure:
           +------------ Minute (0 - 59)
 1. To properly configure crontab, we must edit the crontab file with the following command:
 
-
+          sudo crontab -u root -e
