@@ -382,6 +382,7 @@ Since once you turn it on or modify something, the signature will change.
 
 1. The next step will be to locate ourselves in the path where we have the .vdi of our virtual machine. From our physical machine.
 
+![image](https://github.com/user-attachments/assets/6a6794ce-fd6c-4620-bc3a-45d27eb3892b)
 
 We had choose the path here
 
