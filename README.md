@@ -342,3 +342,13 @@ Counts the number of sudo commands executed by querying the system logs.
 # Result after executing the script ↙️
 
 ![image](https://github.com/user-attachments/assets/1aace589-da60-42a2-9e06-d9319bf6f5a8)
+
+# what is crontab
+
+Crontab stands for "cron table", and it’s a tool in Unix-like operating systems (like Linux) used to schedule commands or scripts to run automatically at specific times and intervals.
+
+How does crontab work?
+
+cron: It’s the background service (or daemon) that executes the scheduled tasks.
+
+crontab: It’s the configuration file where you define the tasks and their schedules
