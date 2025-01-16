@@ -371,3 +371,5 @@ A crontab entry typically has this structure:
 
 ![image](https://github.com/user-attachments/assets/31e1a060-0066-4857-ad10-beb584f4c12c)
 
+To well know how crontab works you can go to this site :
+https://crontab.guru/
