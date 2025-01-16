@@ -340,3 +340,5 @@ Counts the number of sudo commands executed by querying the system logs.
           done
 
 # Result after executing the script ↙️
+
+![image](https://github.com/user-attachments/assets/1aace589-da60-42a2-9e06-d9319bf6f5a8)
