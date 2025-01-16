@@ -364,4 +364,6 @@ A crontab entry typically has this structure:
           | | +-------- Day of the month (1 - 31)
           | +---------- Hour (0 - 23)
           +------------ Minute (0 - 59)
+1. To properly configure crontab, we must edit the crontab file with the following command:
+
 
