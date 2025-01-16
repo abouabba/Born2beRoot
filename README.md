@@ -352,3 +352,16 @@ How does crontab work?
 cron: It’s the background service (or daemon) that executes the scheduled tasks.
 
 crontab: It’s the configuration file where you define the tasks and their schedules
+
+Crontab syntax
+A crontab entry typically has this structure:
+
+          * * * * * command_to_execute
+          - - - - -
+          | | | | |
+          | | | | +---- Day of the week (0 - 7, Sunday can be 0 or 7)
+          | | | +------ Month (1 - 12)
+          | | +-------- Day of the month (1 - 31)
+          | +---------- Hour (0 - 23)
+          +------------ Minute (0 - 59)
+
