@@ -404,3 +404,5 @@ Lighttpd: is a web server designed to be fast, secure, flexible, and standards-c
 1. Installation of Lighttpd packages.
 
           sudo apt install lighttpd
+
+![image](https://github.com/user-attachments/assets/575e8ceb-9c3d-497c-b0b2-97ae04137b33)
