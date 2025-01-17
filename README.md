@@ -417,3 +417,4 @@ Lighttpd: is a web server designed to be fast, secure, flexible, and standards-c
 
 4. We add the rule that includes port 80. If you don't remember how to add rules in port forwarding. Machine configuration → Network → Port forwarding → Replicate the capture
 
+![image](https://github.com/user-attachments/assets/ce5ae915-11aa-4c01-8fb9-b8afed7acfe3)
