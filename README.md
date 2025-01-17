@@ -396,3 +396,11 @@ shasum: It is a command that allows you to identify the integrity of a file usin
 
 
 # ✅ BONUS SERVICES
+
+# 💡Lighttpd
+
+Lighttpd: is a web server designed to be fast, secure, flexible, and standards-compliant. It is optimized for environments where speed is a top priority because it consumes less CPU and RAM than other servers.
+
+1. Installation of Lighttpd packages.
+
+          sudo apt install lighttpd
