@@ -393,3 +393,6 @@ We had choose the path here
           shasum machinename.vdi
 
 shasum: It is a command that allows you to identify the integrity of a file using the SHA-1 hash check sum of a file.
+
+
+# ✅ BONUS SERVICES
