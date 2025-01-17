@@ -406,3 +406,14 @@ Lighttpd: is a web server designed to be fast, secure, flexible, and standards-c
           sudo apt install lighttpd
 
 ![image](https://github.com/user-attachments/assets/575e8ceb-9c3d-497c-b0b2-97ae04137b33)
+
+2. We allow connections through port 80 with the command:
+
+          sudo ufw allow 80
+
+3. We check that we have actually allowed it. Port 80 and allow should appear:
+
+          sudo ufw status
+
+4. We add the rule that includes port 80. If you don't remember how to add rules in port forwarding. Machine configuration → Network → Port forwarding → Replicate the capture
+
