@@ -437,3 +437,6 @@ WordPress is one of the most popular Content Management Systems (CMS) in the wor
 2. Once we have installed the packages we must locate ourselves in the folder /var/www/ with the command cd we will access it:
 
           cd /var/www/
+3. Once we are in the path /var/www/ we must download the latest version of WordPress. As my native language is Spanish I will select the latest version in Spanish. We will use the following command:
+
+          sudo wget https://es.wordpress.org/latest-es_ES.zip
