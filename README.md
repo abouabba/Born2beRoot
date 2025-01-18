@@ -425,3 +425,7 @@ Lighttpd: is a web server designed to be fast, secure, flexible, and standards-c
 WordPress
 
 WordPress is one of the most popular Content Management Systems (CMS) in the world. It allows you to create websites and blogs easily, even if you don’t have advanced programming skills.
+
+To install the latest version of WordPress we must first install wget and zip. To do this we will use the following command:
+
+          sudo apt install wget zip
