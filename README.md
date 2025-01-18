@@ -454,3 +454,7 @@ WordPress is one of the most popular Content Management Systems (CMS) in the wor
 6. Now we will rename the wordpress folder and call it html:
 
           sudo mv wordpress/ html
+
+7. Finally we will set these permissions on the html folder. We will use the command sudo chmod -R 755 html. The number 7 indicates that the owner has read, write and execute permissions. The number 5 indicates that the group and others only have read and execute permissions.
+
+          sudo chmod -R 755 html
