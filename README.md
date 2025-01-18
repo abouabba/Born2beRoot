@@ -442,3 +442,15 @@ WordPress is one of the most popular Content Management Systems (CMS) in the wor
           sudo wget https://es.wordpress.org/latest-es_ES.zip
 
 💡 I could be https://fr.wordpress.org/latest-fr_FR.zip
+
+4. Unzip the file you just downloaded with the command:
+
+          sudo unzip latest-en_US.zip
+
+5. We will rename the folder html and call it html_old:
+
+          sudo mv html/ html_old/
+
+6. Now we will rename the wordpress folder and call it html:
+
+          sudo mv wordpress/ html
