@@ -426,10 +426,14 @@ WordPress
 
 WordPress is one of the most popular Content Management Systems (CMS) in the world. It allows you to create websites and blogs easily, even if you don’t have advanced programming skills.
 
-To install the latest version of WordPress we must first install wget and zip. To do this we will use the following command:
+1. To install the latest version of WordPress we must first install wget and zip. To do this we will use the following command:
 
           sudo apt install wget zip
 
 💡 wget: It is a command line tool used to download files from the web.
 
 💡 zip: It is a command line utility for compressing and decompressing files in ZIP format.
+
+2. Once we have installed the packages we must locate ourselves in the folder /var/www/ with the command cd we will access it:
+
+          cd /var/www/
