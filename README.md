@@ -463,3 +463,5 @@ WordPress is one of the most popular Content Management Systems (CMS) in the wor
 Mariadb
 
 MariaDB: It is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
+
+1. We will install the packages with the command:
