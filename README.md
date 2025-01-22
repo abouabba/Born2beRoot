@@ -481,7 +481,7 @@ Disallow root login remotely? → Y
 Remove test database and access to it? → Y 
 Reload privilege tables now? → Y
 
-
+# 🐬 Create database on Mariadb
 
 1. Log in to MariaDB
 
