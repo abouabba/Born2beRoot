@@ -508,3 +508,20 @@ To check if the database was created successfully, list all databases:
           SHOW DATABASES;
 
 You should see your new database (my_database) in the list.
+
+
+4. Next we need to create a user inside the database. We will use the command:
+
+           CREATE USER 'gemartin'@'localhost' IDENTIFIED BY '12345';
+   
+5. We bind the new user to our database so that we grant him the necessary permissions to be able to work. We will use the command:
+
+          GRANT ALL PRIVILEGES ON wp_database.* TO 'gemartin'@'localhost';
+
+6. We update the permissions for the changes to take effect with the command:
+
+          FLUSH PRIVILEGES;
+
+7. Once we have completed the previous step, we can exit mariadb:
+
+          exit
