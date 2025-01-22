@@ -480,3 +480,31 @@ Remove anonymous users? → Y
 Disallow root login remotely? → Y 
 Remove test database and access to it? → Y 
 Reload privilege tables now? → Y
+
+
+
+1. Log in to MariaDB
+
+First, log in to MariaDB using the terminal. Run the following command:
+
+          mysql -u root -p
+
+Here, root is the username. You'll be prompted to enter the password.
+
+2. Create a New Database
+
+To create a new database, use the CREATE DATABASE command:
+
+          CREATE DATABASE database_name;
+
+For example, if you want to create a database named my_database:
+
+          CREATE DATABASE my_database;
+
+3. Verify the Database
+
+To check if the database was created successfully, list all databases:
+
+          SHOW DATABASES;
+
+You should see your new database (my_database) in the list.
