@@ -461,3 +461,5 @@ WordPress is one of the most popular Content Management Systems (CMS) in the wor
 
 🐬
 Mariadb
+
+MariaDB: It is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
