@@ -468,3 +468,5 @@ MariaDB: It is a database. It is used for various purposes, such as data warehou
 
           sudo apt install mariadb-server
 
+2. Because the default configuration leaves your MariaDB installation unsecure, we will use a script provided by the mariadb-server package to restrict access to the server and remove unused accounts. We will run the script with the following command:
+
