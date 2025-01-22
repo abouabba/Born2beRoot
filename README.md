@@ -421,8 +421,7 @@ Lighttpd: is a web server designed to be fast, secure, flexible, and standards-c
 
 ![image](https://github.com/user-attachments/assets/ce5ae915-11aa-4c01-8fb9-b8afed7acfe3)
 
-# 📰
-WordPress
+# 📰WordPress
 
 WordPress is one of the most popular Content Management Systems (CMS) in the world. It allows you to create websites and blogs easily, even if you don’t have advanced programming skills.
 
@@ -459,8 +458,7 @@ WordPress is one of the most popular Content Management Systems (CMS) in the wor
 
           sudo chmod -R 755 html
 
-🐬
-Mariadb
+# 🐬Mariadb
 
 MariaDB: It is a database. It is used for various purposes, such as data warehousing, e-commerce, enterprise-level functions, and logging applications.
 
