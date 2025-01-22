@@ -472,3 +472,11 @@ MariaDB: It is a database. It is used for various purposes, such as data warehou
 
           sudo mysql_secure_installation
 
+It will ask if we want to switch to Unix socket authentication. Since we already have a protected root account we will type N.
+
+Switch to unix_socket autentication? → N 
+Change the root password? → N
+Remove anonymous users? → Y 
+Disallow root login remotely? → Y 
+Remove test database and access to it? → Y 
+Reload privilege tables now? → Y
