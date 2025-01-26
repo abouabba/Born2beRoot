@@ -547,4 +547,9 @@ PHP: It is a programming language. It is mainly used to develop dynamic web appl
 
 4. modify the following values:
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8b03120e-98e6-4bed-8975-c15aafaba4c4)
+
+You have to replace them with the values that we have previously set when we created the database and the user so that WordPress can connect and make use of it.
+
+
+![image](https://github.com/user-attachments/assets/fb3f9a2a-2889-41b3-9ef3-d9128a9e30e0)
