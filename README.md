@@ -530,3 +530,21 @@ PHP: It is a programming language. It is mainly used to develop dynamic web appl
 1. We install the necessary packages to be able to run web applications written in PHP language and that need to connect to a MySQL database. Run the following command:
 
           sudo apt install php-cgi php-mysql
+
+# 📰WordPress configuration
+
+1. Access the /var/www/html directory with the command:
+
+          cd /var/www/html
+
+2. the file wp-config-sample.php and rename it wp-config.php:
+
+          cp wp-config-sample.php wp-config.php
+
+3.Once we have renamed it we will edit the file wp-config.php:
+
+          nano wp-config.php
+
+4. modify the following values:
+
+![Uploading image.png…]()
