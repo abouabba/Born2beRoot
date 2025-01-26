@@ -523,3 +523,10 @@ You should see your new database (my_database) in the list.
 7. Once we have completed the previous step, we can exit mariadb:
 
           exit
+
+# 🐘PHP
+PHP: It is a programming language. It is mainly used to develop dynamic web applications and interactive websites. PHP runs on the server side.
+
+We install the necessary packages to be able to run web applications written in PHP language and that need to connect to a MySQL database. Run the following command:
+
+          sudo apt install php-cgi php-mysql
