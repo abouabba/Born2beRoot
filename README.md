@@ -4,7 +4,7 @@ It is better to read on Virtualbox because it is very important. Read to benefit
 ![Screenshot from 2025-01-16 21-16-51](https://github.com/user-attachments/assets/44a8b6c2-a8a8-493f-a5a1-ef7dec6098e7)
 
 
-# ⚙️Virtual machine setup
+# ⚙️Virtual machine setup 
 👤
 Installing sudo & configuration of user and groups
 sudo is a program for Unix-like computer operating systems that enables users to run programs with the security privileges of another user, by default the superuser. 
