@@ -1,7 +1,8 @@
 
 It is better to read on Virtualbox because it is very important. Read to benefit from it. And search for hypervisor.
 
-![Screenshot from 2025-01-16 21-16-51](https://github.com/user-attachments/assets/44a8b6c2-a8a8-493f-a5a1-ef7dec6098e7)
+
+![Screenshot from 2025-01-17 10-40-37](https://github.com/user-attachments/assets/bdd01f4a-19e3-48b6-9625-72cbc51531a5)
 
 
 # ⚙️Virtual machine setup 
